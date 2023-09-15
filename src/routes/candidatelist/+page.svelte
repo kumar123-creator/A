@@ -26,11 +26,11 @@
     const dataGrid = new DevExpress.ui.dxDataGrid(document.getElementById("dataGrid"), {
       dataSource: gridData,
       columns: [
-        { dataField: "id", caption: "ID", width: 250 },
-        { dataField: "firstName", caption: "Full Name", width: 200 },
+        { dataField: "id", caption: "ID", width: 350 },
+        { dataField: "firstName", caption: "Full Name", width: 300 },
         { dataField: "surname", caption: "Surname", width: 200 },
         { dataField: "email", caption: "Email", width: 200 },
-        { dataField: "mobile", caption: "Mobile", width: 150 },
+        { dataField: "mobile", caption: "Mobile", width: 250 },
         // Define other columns as needed
       ],
       showBorders: true,
