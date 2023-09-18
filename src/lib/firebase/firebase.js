@@ -6,12 +6,12 @@ import { getAuth, setPersistence, inMemoryPersistence } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDwN2QH09MS-IFaV-e-qxHMGkL-7kYnS_E",
-    authDomain: "authentication-db938.firebaseapp.com",
-    projectId: "authentication-db938",
-    storageBucket: "authentication-db938.appspot.com",
-    messagingSenderId: "1054749862129",
-    appId: "1:1054749862129:web:4e6c7134c71d391cb56150"
+     apiKey: "AIzaSyA3YKiTM2-regyNqUFwuvTM8b5Liqnqqhs",
+  authDomain: "sveltekit-auth-7b8e8.firebaseapp.com",
+  projectId: "sveltekit-auth-7b8e8",
+  storageBucket: "sveltekit-auth-7b8e8.appspot.com",
+  messagingSenderId: "927537754032",
+  appId: "1:927537754032:web:483d942c778698c8d27075"
   };
 
 // Initialize Firebase
